@@ -24,7 +24,7 @@ console.log(iconFile);
 
 var xcassetsName = "FontAwesome.xcassets";
 // var imagesetName = iconType + "_" + iconName + ".imageset"; // maybe only for non-regular icons...?
-var imagesetName = iconType + "_" + iconName + ".imageset";
+var imagesetName = iconName + ".imageset";
 var baseFolder = "./";
 var outputFolder = baseFolder + xcassetsName + "/" + imagesetName + "/";
 var ContentsFile = [
